@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASCII	./er.h	28;"	d
+ASCII_BIT	./er.h	/^	ASCII_BIT$/;"	e	enum:__anon2
+BINERY	./er.h	24;"	d
+BINERY_BIT	./er.h	/^	BINERY_BIT       = 0,$/;"	e	enum:__anon2
+BYTE	./er.h	18;"	d
+CC	./Makefile	/^CC    = gcc$/;"	m
+CFLAGS	./Makefile	/^CFLAGS  = -Wall -fPIE -pie -DVERSION='"$(VERSION)"'$/;"	m
+CHECK_ARGUMENT	./er.h	35;"	d
+CP	./Makefile	/^CP    = cp$/;"	m
+CPFLAGS	./Makefile	/^CPFLAGS =$/;"	m
+DECIMAL	./er.h	26;"	d
+DECIMAL_BIT	./er.h	/^	DECIMAL_BIT,$/;"	e	enum:__anon2
+DOUBLE_WORD	./er.h	20;"	d
+ER_ERROR	./er.h	15;"	d
+ER_H	./er.h	2;"	d
+ER_VERSION	./er_old.c	12;"	d	file:
+HEXADECIMAL	./er.h	27;"	d
+HEXADECIMAL_BIT	./er.h	/^	HEXADECIMAL_BIT,$/;"	e	enum:__anon2
+LIBS	./Makefile	/^LIBS = -lshiro$/;"	m
+MKDIR	./Makefile	/^MKDIR = mkdir$/;"	m
+MKDIRFLAGS	./Makefile	/^MKDIRFLAGS = -p$/;"	m
+MULIT_TYPE	./er.h	/^} MULIT_TYPE;$/;"	t	typeref:union:__anon1
+NAME	./Makefile	/^NAME = er$/;"	m
+NAME	./er.c	/^const char *NAME = NULL;$/;"	v
+OBJ	./Makefile	/^OBJ  = main.o er.o $/;"	m
+OCTAL	./er.h	25;"	d
+OCTAL_BIT	./er.h	/^	OCTAL_BIT,$/;"	e	enum:__anon2
+QUAD_WORD	./er.h	21;"	d
+RM	./Makefile	/^RM    = rm$/;"	m
+RMFLAGS	./Makefile	/^RMFLAGS =$/;"	m
+SEED_ASCII	./er.h	/^	SEED_ASCII       = SEED_HEXADECIMAL * 2,$/;"	e	enum:__anon2
+SEED_BINERY	./er.h	/^	SEED_BINERY      = 1,$/;"	e	enum:__anon2
+SEED_DECIMAL	./er.h	/^	SEED_DECIMAL     = SEED_OCTAL       * 2,$/;"	e	enum:__anon2
+SEED_HEXADECIMAL	./er.h	/^	SEED_HEXADECIMAL = SEED_DECIMAL     * 2,$/;"	e	enum:__anon2
+SEED_OCTAL	./er.h	/^	SEED_OCTAL       = SEED_BINERY      * 2,$/;"	e	enum:__anon2
+SETNAME	./er_old.c	14;"	d	file:
+SET_NAME	./er.h	30;"	d
+TITLE	./er.c	/^bool TITLE = false;$/;"	v
+UNSIGNED	./er.c	/^bool UNSIGNED = false;$/;"	v
+VERSION	./Makefile	/^VERSION = 3.0.0(Beta)$/;"	m
+WORD	./er.h	19;"	d
+byte	./er.h	/^	char      byte;        \/* 字节 8bit  *\/$/;"	m	union:__anon1
+change	./er_old.c	/^long long int change(const char *val)$/;"	f
+double_word	./er.h	/^	long      double_word; \/* 双字 32bit *\/$/;"	m	union:__anon1
+er_binery	./er.c	/^const char *er_binery(const MULIT_TYPE data,int size)$/;"	f
+er_doit	./er.c	/^int er_doit(const MULIT_TYPE data,unsigned seed,int size)$/;"	f
+er_format	./er.c	/^const char *er_format(int type,char doit,int size)$/;"	f
+er_input	./er.c	/^const MULIT_TYPE er_input(const char *value,int size)$/;"	f
+er_number	./er.c	/^const MULIT_TYPE er_number(const char *binery)$/;"	f
+er_output	./er.c	/^int er_output(const MULIT_TYPE data,int o_type,int size)$/;"	f
+er_setsize	./er.c	/^const char *er_setsize(const char *type,int size)$/;"	f
+help	./er_old.c	/^int help(int status)$/;"	f
+helper	./er.c	/^int helper(int status)$/;"	f
+main	./er_old.c	/^int main(int argc,char *argv[])$/;"	f
+main	./main.c	/^int main(int argc, char *argv[])$/;"	f
+output	./er_old.c	/^int output(int seed,const char *val)$/;"	f
+prefix	./Makefile	/^prefix = \/usr\/local\/bin$/;"	m
+progname	./er_old.c	/^static const char *progname = NULL;$/;"	v	file:
+quad_word	./er.h	/^	long long quad_word;   \/* 四字 64bit *\/$/;"	m	union:__anon1
+short_option	./er_old.c	/^static const  char *short_option = "dbxocthv";$/;"	v	file:
+title	./er_old.c	/^bool title = false;$/;"	v
+version	./er.c	/^void version(void)$/;"	f
+version	./er_old.c	/^void version(void)$/;"	f
+word	./er.h	/^	short     word;        \/* 字   16bit *\/$/;"	m	union:__anon1
